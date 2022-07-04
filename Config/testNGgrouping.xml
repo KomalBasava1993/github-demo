@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+<Suite name="TestNG1">
+	<test name="TestNG features">
+		<groups>
+			<run>
+				<include name="A" />
+				<include name="B" />
+				<include name="D" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg.Testgrouping" />
+			<class name="TestNg.NewTestgrouping" />
+			
+		</classes>
+	</test>
+</Suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-6.4.dtd">
+<Suite name="TestNG1">
+	<test name="TestNG features">
+		<classes>
+			<class name="TestNg.TestAnnotation"/>
+			<class name="TestNg.TestAttributes"/>
+			<class name="TestNg.Testfaacebookwithdependency"/>
+			<class name="TestNg.TestSequencing"/>
+		</classes>
+	</test>
+</Suite>

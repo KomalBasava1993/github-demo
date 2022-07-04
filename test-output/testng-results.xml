@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="141" started-at="2022-06-25T19:55:05Z" finished-at="2022-06-25T19:55:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="141" started-at="2022-06-25T19:55:05Z" finished-at="2022-06-25T19:55:05Z">
+      <class name="TestNg.TestSequencing">
+        <test-method status="PASS" signature="k()[pri:0, instance:TestNg.TestSequencing@1ca8de8]" name="k" duration-ms="38" started-at="2022-06-25T19:55:05Z" finished-at="2022-06-25T19:55:05Z">
+        </test-method> <!-- k -->
+        <test-method status="PASS" signature="h()[pri:2, instance:TestNg.TestSequencing@1ca8de8]" name="h" duration-ms="1" started-at="2022-06-25T19:55:05Z" description="priority is 2" finished-at="2022-06-25T19:55:05Z">
+        </test-method> <!-- h -->
+        <test-method status="PASS" signature="i()[pri:10, instance:TestNg.TestSequencing@1ca8de8]" name="i" duration-ms="2" started-at="2022-06-25T19:55:05Z" finished-at="2022-06-25T19:55:05Z">
+        </test-method> <!-- i -->
+        <test-method status="PASS" signature="f()[pri:12, instance:TestNg.TestSequencing@1ca8de8]" name="f" duration-ms="3" started-at="2022-06-25T19:55:05Z" finished-at="2022-06-25T19:55:05Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g()[pri:3, instance:TestNg.TestSequencing@1ca8de8]" name="g" duration-ms="1" started-at="2022-06-25T19:55:05Z" depends-on-methods="TestNg.TestSequencing.f" finished-at="2022-06-25T19:55:05Z">
+        </test-method> <!-- g -->
+      </class> <!-- TestNg.TestSequencing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
